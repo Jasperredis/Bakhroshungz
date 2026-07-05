@@ -1,0 +1,23 @@
+* {
+    max-width: 80ch;
+    font-family: Libertinus Serif, serif;
+}
+.warn {
+    background-color: lavenderblush;
+    border: solid 5px lightcoral;
+}
+.warn-light {
+    background-color: ivory;
+    border: solid 5px khaki;
+}
+.info {
+    background-color: azure;
+    border: solid 5px lightblue;
+}
+.warn, .warn-light, .info, footer { padding: 2%; }
+footer {
+    margin-top: 5%;
+    background-color: whitesmoke;
+    border: solid 5px slategrey;
+}
+footer p { margin: 0; }
