@@ -21,3 +21,4 @@ footer {
     border: solid 5px slategrey;
 }
 footer p { margin: 0; }
+tr:nth-child(even) { background-color: whitesmoke; }
