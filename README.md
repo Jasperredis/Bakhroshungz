@@ -5,4 +5,6 @@ Bakhroshungz is a highly agglutinative constructed language with a complex verb 
 This repository contains the website for documenting and explaining the grammar, lexicon, phonology, writing system, and world of this conlang.
 # [SEE THIS, THIS IS THE WEBSITE.](https://bakhroshungz.jasperredis.net)
 
+Latest [update](https://bakhroshungz.jasperredis.net/updates.html): *2026-07-14: Morphology updates*
+
 Made with <3 by jasper

@@ -6,227 +6,230 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Phonology</h1>
-  <div class="warn-light">
-    This page is considered finished, though it is likely
-    subject to change.
-  </div><br>
-  <a href="index.html">Back</a><br><br>
-  <strong>Headers:</strong>
-  <ol>
-    <li><a href="#inventory">Inventory</a>
-      <ol>
-        <li><a href="#consonants">Consonants</a></li>
-        <li><a href="#vowels">Vowels</a></li>
-      </ol>
-    </li>
-    <li><a href="#allophones">Allophones</a></li>
-	<li><a href="#phonotactics">Phonotactics</a></li>
-    <li><a href="#romanisation">Romanisation</a></li>
-  </ol>
-  <hr>
-  
-  <h2 id="inventory">Inventory</h2>
-  <h3 id="consonants">Consonants</h3>
-  <b>Non-Syllabic</b>
-  <table>
-    <tr>
-      <th>Manner</th>
-      <th>Bilabial</th>
-      <th>Dental</th>
-      <th>Alveolar</th>
-      <th>Retroflex</th>
-      <th>Palatal</th>
-      <th>Velar</th>
-      <th>Labiovelar</th>
-      <th>Uvular</th>
-      <th>Pharyngeal</th>
-      <th>Glottal</th>
-    </tr>
-    <tr><th>Nasal</th><td>m</td><td></td><td>n</td><td></td><td></td><td>ŋ</td><td></td><td></td><td></td><td></td></tr>
-    <tr><th>Stop</th><td>p, b</td><td></td><td>t, d</td><td></td><td></td><td>k</td><td>kʷ</td><td>q</td><td></td><td>ʔ</td></tr>
-    <tr><th>Trill</th><td></td><td></td><td>r</td><td></td><td></td><td></td><td></td><td></td><td></td><td>
-    <tr><th>Fricative</th><td>ɸ</td><td>θ, ð</td><td>s, z</td><td>ʂ, ʐ</td><td>ʝ</td><td>x, ɣ</td><td>xʷ</td><td>χ</td><td>ħ, ʕ</td><td></td></tr>
-    <tr><th>Approximant</th><td></td><td></td><td></td><td></td><td>j</td><td></td><td></td><td></td><td></td><td></tr>
-    <tr><th>Lateral Fricative</th><td></td><td></td><td>ɬ</td><td></td><td></td><td></td><td></td><td></td><td></td><td></tr>
-    <tr><th>Lateral Approximant</th><td></td><td></td><td>l</td><td></td><td></td><td></td><td></td><td></td><td></td><td></tr>
-  </table><br>
-  <b>Syllabic</b>
-  <p>Note that these are not just features of fast speech, nor allophones, but phonemic contrasts!</p>
-  <table>
-    <tr><th>Manner</th><th>Bilabial</th><th>Alveolar</th><th>Velar</th></tr>
-    <tr><th>Nasal</th><td>m̩</td><td>n̩</td><td>ŋ̩</td></tr>
-    <tr><th>Lateral Approximant</th><td></td><td>l̩</td><td></td></tr>
-  </table>
-  <hr>
-  
-  <h3 id="vowels">Vowels</h3>
-  <b>Oral</b>
-  <table>
-    <tr>
-      <th>Height</th>
-      <th>Front</th>
-      <th>Central</th>
-      <th>Back</th>
-    </tr>
-    <tr><th>Close</th><td>i, y</td><td></td><td>u</td></tr>
-    <tr><th>Close-Mid</th><td>e</td><td></td><td></td></tr>
-    <tr><th>Mid</th><td></td><td>ə</td><td></td></tr>
-    <tr><th>Open-Mid</th><td></td><td></td><td>ɔ</td></tr>
-    <tr><th>Open</th><td>a</td><td></td><td></td></tr>
-  </table><br>
-  <b>Nasal</b>
-  <table>
-    <tr>
-      <th>Height</th>
-      <th>Front</th>
-      <th>Back</th>
-    </tr>
-    <tr><th>Open-Mid</th><td></td><td>ɔ̃</td></tr>
-    <tr><th>Open</th><td>ã</td><td></td></tr>
-  </table>
-  <hr>
-  
-  <h2 id="allophones">Allophones</h2>
-  <p>These are not only features of fast speech; they are standard/common pronunciations.</p>
-  <ol>
-    <li>Velar and uvular fricatives become labialised when following rounded vowels.
-      <ul>
-          <li>This can cause ambiguity on whether a /x/ sound is underlyingly /x/ or /xʷ/.</li>
-          <li>Example: <i>muqhne</i> is pronounced as [muχʷ.nə], with the underlying /χ/ surfaced as [χʷ] due to the preceding /u/.</li>
-      </ul>
-    </li>
-    <li>/r/ becomes voiceless when following voiceless consonants.
-      <ul>
-        <li>Example: <i>krif</i> is pronounced as [kr̥iɸ], with the underlying /r/ surfaced as [r̥] due to the voiceless /k/ preceding it.</li>
-      </ul>
-    </li>
-    <li>Alveolar stops become retroflex stops (without changing voicing) when following or preceding a retroflex fricative.
-      <ul>
-        <li>Example: <i>lazhd</i> is pronounced as [laʐɖʰ], with the underlying /d/ surfaced as [ɖ] due to the preceding /ʐ/.</li>
-      </ul>
-    </li>
-    <li>Stops are aspirated when at the end of syllables.
-      <ul>
-        <li>Example: <i>jaq</i> is pronounced as [jaqʰ], with the underlying /q/ aspirated due to it being at the end of the syllable.</li>
-      </ul>
-    </li>
-	<li>/ʝ/ becomes [ç] when following a voiceless consonant.
-	  <ul>
-		<li>Example: <i>ʕikjhus</i> is pronounced as [ʕi.cçus], with the underlying /ʝ/ surfaced as [ç] due to the voiceless /k/ preceeding it.</li>
-	  </ul>
-	</li>
-	<li>Alveolar and velar stops become palatal when followed by /ʝ/.
-	  <ul>
-		<li>Example: <i>ʕikjhus</i> is pronounced as [ʕi.cçus], with the underlying /k/ surfaced as [c] due to the /ʝ/ following it.</li>
-	  </ul>
-	</li>
-	<li>/ɬ/ becomes [ɮ] when following a voiced consonant.
-	  <ul>
-		<li>Example: <i>jarblhe</i> is pronounced as [jar.bɮə], with the underlying /ɬ/ surfaced as [ɮ] due to the voiced /b/ preceeding it.</li>
-	  </ul>
-	</li>
-    <li>/n/ becomes [ɲ] when following or preceeding a palatal consonant.
-      <ul>
-        <li>Example: <i>ãnjez</i> is pronounced as [ã.ɲəz], with the underlying /n/ surfaced as [ɲ] due to the palatal /j/ following it.</li>
-      </ul>
-    </li>
-  </ol>
-  <hr>
-  
-  <h2 id="phonotactics">Phonotactics</h2>
-  <b>Syllable structure:</b> (C)(C)V(C)(C)<br><br>
-  <b>The syllable onset may be:</b>
-  <ul>
-      <li>Nothing</li>
-      <li>Any single (non-syllabic) consonant</li>
-      <li>Any combination of a non-glottal stop and fricative (in any order) with differing places and equal voicing besides /kxʷ/</li>
-      <li>Any non-glottal stop or fricative followed by /r/</li>
-      <li>/t͡s/ followed by any fricative that is not alveolar, retroflex, or palatal, or any trill</li>
-      <li>/q͡χ/ followed by any biliabial, dental, or alveolar fricative or trill</li>
-      <li>Any dental affricate followed by any equally voiced fricative that is not dental or retroflex</li>
-      <li>Any consonant besides /ʔ/, /r/, and /ʝ/ followed by /j/</li>
-      <li>Any consonant besides /ʔ/, /r/, and /j/ followed by /ʝ/</li>
-      <li>Any non-dental fricative, nasal, or stop followed by /ɬ/</li>
-      <li>Any fricative, nasal, or stop followed by /l/</li>
-  </ul>
-  <b>The syllable nucleus may be</b> any vowel (including syllabic consonants).<br><br>
-  <b>The syllable coda may be:</b>
-  <ul>
-    <li>Nothing</li>
-    <li>Any single (non-syllabic) consonant besides /j/</li>
-    <li>Any combination of two differing stops with equal voicing besides /k/ + /kʷ/ and /k/ + /q/</li>
-    <li>Any combination of a stop and fricative (in any order) with equal voicing besides /k/ + /χ/</li>
-    <li>Any nasal consonant followed by any stop, fricative, or palatal consonant</li>
-    <li>Any lateral consonant followed by any stop, fricative, or nasal besides /ŋ/, and excluding /ɬ/ + a dental consonant</li>
-    <li>...</li>
-  </ul>
-  <hr>
-  
-  <h2 id="romanisation">Romanisation</h2>
-  <p>
-    The romanisation does not account for allophones; it is 1-to-1 of underlying sounds.<br>
-    Note: There are sounds here that you do not see in the <a href="#inventory">Inventory</a>.
-    This is because the romanisation has every contrast in every dialect; for more information,
-    see <a href="dialects.html">Dialects</a>.
-  </p>
-  <table>
-    <thead><tr><th>Sound</th><th>Romanisation</th></tr></thead>
-    <tbody>
-      <tr><td>/m/</td><td>m</td></tr>
-      <tr><td>/n/</td><td>n</td></tr>
-      <tr><td>/ŋ/</td><td>ng</td></tr>
-      <tr><td>/p/</td><td>p</td></tr>
-      <tr><td>/b/</td><td>b</td></tr>
-      <tr><td>/t/</td><td>t</td></tr>
-      <tr><td>/d/</td><td>d</td></tr>
-      <tr><td>/k/</td><td>k</td></tr>
-      <tr><td>/kʷ/</td><td>kw</td></tr>
-      <tr><td>/q/</td><td>q</td></tr>
-      <tr><td>/ʔ/</td><td>'</td></tr>
-      <tr><td>/r/</td><td>r</td></tr>
-      <tr><td>/ɸ/</td><td>f</td></tr>
-      <tr><td>[β]</td><td>v</td></tr>
-      <tr><td>/θ/</td><td>th</td></tr>
-      <tr><td>/ð/</td><td>dh</td></tr>
-      <tr><td>/s/</td><td>s</td></tr>
-      <tr><td>/z/</td><td>z</td></tr>
-      <tr><td>/ʂ/</td><td>sh</td></tr>
-      <tr><td>/ʐ/</td><td>zh</td></tr>
-      <tr><td>/ʝ/</td><td>jh</td></tr>
-      <tr><td>/x/</td><td>kh</td></tr>
-      <tr><td>[ɣ]</td><td>g</td></tr>
-      <tr><td>/xʷ/</td><td>khw</td></tr>
-      <tr><td>/χ/</td><td>qh</td></tr>
-      <tr><td>/ħ/</td><td>ħ</td></tr>
-      <tr><td>/ʕ/</td><td>ʕ</td></tr>
-      <tr><td>/j/</td><td>j</td></tr>
-      <tr><td>/ɬ/</td><td>lh</td></tr>
-      <tr><td>/l/</td><td>l</td></tr>
-      <tr><td>/n̩/</td><td>ņ</td></tr>
-      <tr><td>/m̩/</td><td>əm</td></tr>
-      <tr><td>/ŋ̩/</td><td>ņg</td></tr>
-      <tr><td>/l̩/</td><td>ļ</td></tr>
-      <tr><td>/i/</td><td>i</td></tr>
-      <tr><td>/y/</td><td>y</td></tr>
-      <tr><td>/u/</td><td>u</td></tr>
-      <tr><td>/e/</td><td>e</td></tr>
-      <tr><td>/ə/</td><td>ə</td></tr>
-      <tr><td>/ɔ/</td><td>ɔ</td></tr>
-      <tr><td>/a/</td><td>a</td></tr>
-      <tr><td>/ã/</td><td>ã</td></tr>
-      <tr><td>/ɔ̃/</td><td>õ</td></tr>
-      <tr><td>[ø]</td><td>ø</td></tr>
-    </tbody>
-  </table>
+  <main>
+	<h1>Phonology</h1>
+	<div class="warn-light">
+	  This page is considered finished, though it is likely
+	  subject to change.
+	</div><br>
+	<a href="index.html">Back</a><br><br>
+	<strong>Headers:</strong>
+	<ol>
+	  <li><a href="#inventory">Inventory</a>
+		<ol>
+		  <li><a href="#consonants">Consonants</a></li>
+		  <li><a href="#vowels">Vowels</a></li>
+		</ol>
+	  </li>
+	  <li><a href="#allophones">Allophones</a></li>
+	  <li><a href="#phonotactics">Phonotactics</a></li>
+	  <li><a href="#romanisation">Romanisation</a></li>
+	</ol>
+	<hr>
+
+	<h2 id="inventory">Inventory</h2>
+	<h3 id="consonants">Consonants</h3>
+	<b>Non-Syllabic</b>
+	<table>
+	  <tr>
+		<th>Manner</th>
+		<th>Bilabial</th>
+		<th>Dental</th>
+		<th>Alveolar</th>
+		<th>Retroflex</th>
+		<th>Palatal</th>
+		<th>Velar</th>
+		<th>Labiovelar</th>
+		<th>Uvular</th>
+		<th>Pharyngeal</th>
+		<th>Glottal</th>
+	  </tr>
+	  <tr><th>Nasal</th><td>m</td><td></td><td>n</td><td></td><td></td><td>ŋ</td><td></td><td></td><td></td><td></td></tr>
+	  <tr><th>Stop</th><td>p, b</td><td></td><td>t, d</td><td></td><td></td><td>k</td><td>kʷ</td><td>q</td><td></td><td>ʔ</td></tr>
+	  <tr><th>Trill</th><td></td><td></td><td>r</td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+	  <tr><th>Fricative</th><td>ɸ</td><td>θ, ð</td><td>s, z</td><td>ʂ, ʐ</td><td>ʝ</td><td>x, ɣ</td><td>xʷ</td><td>χ</td><td>ħ, ʕ</td><td></td></tr>
+	  <tr><th>Approximant</th><td></td><td></td><td></td><td></td><td>j</td><td></td><td></td><td></td><td></td><td></tr>
+	  <tr><th>Lateral Fricative</th><td></td><td></td><td>ɬ</td><td></td><td></td><td></td><td></td><td></td><td></td><td></tr>
+	  <tr><th>Lateral Approximant</th><td></td><td></td><td>l</td><td></td><td></td><td></td><td></td><td></td><td></td><td></tr>
+	</table><br>
+	<b>Syllabic</b>
+	<p>Note that these are not just features of fast speech, nor allophones, but phonemic contrasts!</p>
+	<table>
+	  <tr><th>Manner</th><th>Bilabial</th><th>Alveolar</th><th>Velar</th></tr>
+	  <tr><th>Nasal</th><td>m̩</td><td>n̩</td><td>ŋ̩</td></tr>
+	  <tr><th>Lateral Approximant</th><td></td><td>l̩</td><td></td></tr>
+	</table>
+	<hr>
+
+	<h3 id="vowels">Vowels</h3>
+	<b>Oral</b>
+	<table>
+	  <tr>
+		<th>Height</th>
+		<th>Front</th>
+		<th>Central</th>
+		<th>Back</th>
+	  </tr>
+	  <tr><th>Close</th><td>i, y</td><td></td><td>u</td></tr>
+	  <tr><th>Close-Mid</th><td>e</td><td></td><td></td></tr>
+	  <tr><th>Mid</th><td></td><td>ə</td><td></td></tr>
+	  <tr><th>Open-Mid</th><td></td><td></td><td>ɔ</td></tr>
+	  <tr><th>Open</th><td>a</td><td></td><td></td></tr>
+	</table><br>
+	<b>Nasal</b>
+	<table>
+	  <tr>
+		<th>Height</th>
+		<th>Front</th>
+		<th>Back</th>
+	  </tr>
+	  <tr><th>Open-Mid</th><td></td><td>ɔ̃</td></tr>
+	  <tr><th>Open</th><td>ã</td><td></td></tr>
+	</table>
+	<hr>
+
+	<h2 id="allophones">Allophones</h2>
+	<p>These are not only features of fast speech; they are standard/common pronunciations.</p>
+	<ol>
+	  <li>Velar and uvular fricatives become labialised when following rounded vowels.
+		<ul>
+			<li>This can cause ambiguity on whether a /x/ sound is underlyingly /x/ or /xʷ/.</li>
+			<li>Example: <i>muqhne</i> is pronounced as [muχʷ.nə], with the underlying /χ/ surfaced as [χʷ] due to the preceding /u/.</li>
+		</ul>
+	  </li>
+	  <li>/r/ becomes voiceless when following voiceless consonants.
+		<ul>
+		  <li>Example: <i>krif</i> is pronounced as [kr̥iɸ], with the underlying /r/ surfaced as [r̥] due to the voiceless /k/ preceding it.</li>
+		</ul>
+	  </li>
+	  <li>Alveolar stops become retroflex stops (without changing voicing) when following or preceding a retroflex fricative.
+		<ul>
+		  <li>Example: <i>lazhd</i> is pronounced as [laʐɖʰ], with the underlying /d/ surfaced as [ɖ] due to the preceding /ʐ/.</li>
+		</ul>
+	  </li>
+	  <li>Stops are aspirated when at the end of syllables.
+		<ul>
+		  <li>Example: <i>jaq</i> is pronounced as [jaqʰ], with the underlying /q/ aspirated due to it being at the end of the syllable.</li>
+		</ul>
+	  </li>
+	  <li>/ʝ/ becomes [ç] when following a voiceless consonant.
+		<ul>
+		  <li>Example: <i>ʕikjhus</i> is pronounced as [ʕi.cçus], with the underlying /ʝ/ surfaced as [ç] due to the voiceless /k/ preceeding it.</li>
+		</ul>
+	  </li>
+	  <li>Alveolar and velar stops become palatal when followed by /ʝ/.
+		<ul>
+		  <li>Example: <i>ʕikjhus</i> is pronounced as [ʕi.cçus], with the underlying /k/ surfaced as [c] due to the /ʝ/ following it.</li>
+		</ul>
+	  </li>
+	  <li>/ɬ/ becomes [ɮ] when following a voiced consonant.
+		<ul>
+		  <li>Example: <i>jarblhe</i> is pronounced as [jar.bɮə], with the underlying /ɬ/ surfaced as [ɮ] due to the voiced /b/ preceeding it.</li>
+		</ul>
+	  </li>
+	  <li>/n/ becomes [ɲ] when following or preceeding a palatal consonant.
+		<ul>
+		  <li>Example: <i>ãnjez</i> is pronounced as [ã.ɲəz], with the underlying /n/ surfaced as [ɲ] due to the palatal /j/ following it.</li>
+		</ul>
+	  </li>
+	</ol>
+	<hr>
+
+	<h2 id="phonotactics">Phonotactics</h2>
+	<b>Syllable structure:</b> (C)(C)V(C)(C)<br><br>
+	<b>The syllable onset may be:</b>
+	<ul>
+		<li>Nothing</li>
+		<li>Any single (non-syllabic) consonant</li>
+		<li>Any combination of a non-glottal stop and fricative (in any order) with differing places and equal voicing besides /kxʷ/</li>
+		<li>Any non-glottal stop or fricative followed by /r/</li>
+		<li>/t͡s/ followed by any fricative that is not alveolar, retroflex, or palatal, or any trill</li>
+		<li>/q͡χ/ followed by any biliabial, dental, or alveolar fricative or trill</li>
+		<li>Any dental affricate followed by any equally voiced fricative that is not dental or retroflex</li>
+		<li>Any consonant besides /ʔ/, /r/, and /ʝ/ followed by /j/</li>
+		<li>Any consonant besides /ʔ/, /r/, and /j/ followed by /ʝ/</li>
+		<li>Any non-dental fricative, nasal, or stop followed by /ɬ/</li>
+		<li>Any fricative, nasal, or stop followed by /l/</li>
+	</ul>
+	<b>The syllable nucleus may be</b> any vowel (including syllabic consonants).<br><br>
+	<b>The syllable coda may be:</b>
+	<ul>
+	  <li>Nothing</li>
+	  <li>Any single (non-syllabic) consonant besides /j/</li>
+	  <li>Any combination of two differing stops with equal voicing besides /k/ + /kʷ/ and /k/ + /q/</li>
+	  <li>Any combination of a stop and fricative (in any order) with equal voicing besides /k/ + /χ/</li>
+	  <li>Any nasal consonant followed by any stop, fricative, or palatal consonant</li>
+	  <li>Any lateral consonant followed by any stop, fricative, or nasal besides /ŋ/, and excluding /ɬ/ + a dental consonant</li>
+	  <li>...</li>
+	</ul>
+	<hr>
+
+	<h2 id="romanisation">Romanisation</h2>
+	<p>
+	  The romanisation does not account for allophones; it is 1-to-1 of underlying sounds.<br>
+	  Note: There are sounds here that you do not see in the <a href="#inventory">Inventory</a>.
+	  This is because the romanisation has every contrast in every dialect; for more information,
+	  see <a href="dialects.html">Dialects</a>.
+	</p>
+	<table>
+	  <thead><tr><th>Sound</th><th>Romanisation</th></tr></thead>
+	  <tbody>
+		<tr><td>/m/</td><td>m</td></tr>
+		<tr><td>/n/</td><td>n</td></tr>
+		<tr><td>/ŋ/</td><td>ng</td></tr>
+		<tr><td>/p/</td><td>p</td></tr>
+		<tr><td>/b/</td><td>b</td></tr>
+		<tr><td>/t/</td><td>t</td></tr>
+		<tr><td>/d/</td><td>d</td></tr>
+		<tr><td>/k/</td><td>k</td></tr>
+		<tr><td>/kʷ/</td><td>kw</td></tr>
+		<tr><td>/q/</td><td>q</td></tr>
+		<tr><td>/ʔ/</td><td>'</td></tr>
+		<tr><td>/r/</td><td>r</td></tr>
+		<tr><td>/ɸ/</td><td>f</td></tr>
+		<tr><td>[β]</td><td>v</td></tr>
+		<tr><td>/θ/</td><td>th</td></tr>
+		<tr><td>/ð/</td><td>dh</td></tr>
+		<tr><td>/s/</td><td>s</td></tr>
+		<tr><td>/z/</td><td>z</td></tr>
+		<tr><td>/ʂ/</td><td>sh</td></tr>
+		<tr><td>/ʐ/</td><td>zh</td></tr>
+		<tr><td>/ʝ/</td><td>jh</td></tr>
+		<tr><td>/x/</td><td>kh</td></tr>
+		<tr><td>[ɣ]</td><td>g</td></tr>
+		<tr><td>/xʷ/</td><td>khw</td></tr>
+		<tr><td>/χ/</td><td>qh</td></tr>
+		<tr><td>/ħ/</td><td>ħ</td></tr>
+		<tr><td>/ʕ/</td><td>ʕ</td></tr>
+		<tr><td>/j/</td><td>j</td></tr>
+		<tr><td>/ɬ/</td><td>lh</td></tr>
+		<tr><td>/l/</td><td>l</td></tr>
+		<tr><td>/n̩/</td><td>ņ</td></tr>
+		<tr><td>/m̩/</td><td>əm</td></tr>
+		<tr><td>/ŋ̩/</td><td>ņg</td></tr>
+		<tr><td>/l̩/</td><td>ļ</td></tr>
+		<tr><td>/i/</td><td>i</td></tr>
+		<tr><td>/y/</td><td>y</td></tr>
+		<tr><td>/u/</td><td>u</td></tr>
+		<tr><td>/e/</td><td>e</td></tr>
+		<tr><td>/ə/</td><td>ə</td></tr>
+		<tr><td>/ɔ/</td><td>ɔ</td></tr>
+		<tr><td>/a/</td><td>a</td></tr>
+		<tr><td>/ã/</td><td>ã</td></tr>
+		<tr><td>/ɔ̃/</td><td>õ</td></tr>
+		<tr><td>[ø]</td><td>ø</td></tr>
+	  </tbody>
+	</table>
+  </main>
+
+  <footer>
+	<p>
+      <a href="updates.html">Updates page</a> (for general updates and status updates about this project and website)<br><br>
+      Conlang and website by <a href="https://www.jasperredis.net">jasperredis</a>.<br>
+      This website, and its images (found in the images folder at repository root) are licensed under the
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC-BY-SA 4.0</a>.<br>
+      The source for this website is hosted <a href="https://github.com/Jasperredis/Bakhroshungz">here on GitHub</a>.
+	</p>
+  </footer>
 </body>
-<footer>
-  <p>
-    <a href="updates.html">Updates page</a> (for general updates and status updates about this project and website)<br><br>
-    Conlang and website by <a href="https://www.jasperredis.net">jasperredis</a>.<br>
-    This website, and its images (found in the images folder at repository root) are licensed under the
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC-BY-SA 4.0</a>.<br>
-    The source for this website is hosted <a href="https://github.com/Jasperredis/Bakhroshungz"</a>here on GitHub</a>.
-  </p>
-</footer>
 </html>
